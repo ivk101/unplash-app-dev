@@ -6,8 +6,8 @@ import {
   Link,
   useLocation
 } from "react-router-dom";
-import fetch from 'node-fetch';
-global.fetch = fetch;
+// import fetch from 'node-fetch';
+// global.fetch = fetch;
 import Unsplash, {
     toJson
 } from 'unsplash-js';
